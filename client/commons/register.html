@@ -1,0 +1,54 @@
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+    <link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
+<!--    <script type="text/javascript" src="js/bootstrap.js/bootstrap.min.js"></script>-->
+    <style>
+
+        .container {
+            margin-top: 15%;
+            width: 35%;
+        }
+
+        .btn-primary {
+            background-color: #337ab7;
+            border-color: #337ab7;
+        }
+
+        .form-control {
+            margin-bottom: 4px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <form>
+        <div class="form-signin">
+            <!--<h2 class="form-signin-heading">注册</h2>-->
+            <!-- class="sr-only"将label标签隐藏 -->
+            <label for="exampleInputUsername" class="sr-only">用户名</label>
+            <input type="text" class="form-control" id="exampleInputUsername" placeholder="用户名">
+            <label for="exampleInputUsername" class="sr-only">密码</label>
+            <input type="password" class="form-control" id="exampleInputPassword" placeholder="密码">
+            <label for="exampleInputUsername" class="sr-only">确认密码</label>
+            <input type="password" class="form-control" id="exampleInputRepeatPassword" placeholder="确认密码">
+            <label for="exampleInputUsername" class="sr-only">邮箱</label>
+            <input type="email" class="form-control" id="exampleInputEmail" placeholder="邮箱">
+            <label for="exampleInputUsername" class="sr-only">手机</label>
+            <input type="tel" class="form-control" id="exampleInputPhone" placeholder="手机">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox">
+                    记住密码
+                </label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">注册</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
